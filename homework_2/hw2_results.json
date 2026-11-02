@@ -1,0 +1,500 @@
+[
+  {
+    "partition": "IID",
+    "H": 1,
+    "S": 200,
+    "seed": 0,
+    "log": [
+      {
+        "steps": 0,
+        "round": 0,
+        "examples": 0,
+        "val_acc": 8.65
+      },
+      {
+        "steps": 5,
+        "round": 5,
+        "examples": 1250,
+        "val_acc": 8.65
+      },
+      {
+        "steps": 10,
+        "round": 10,
+        "examples": 2500,
+        "val_acc": 11.15
+      },
+      {
+        "steps": 20,
+        "round": 20,
+        "examples": 5000,
+        "val_acc": 11.35
+      },
+      {
+        "steps": 40,
+        "round": 40,
+        "examples": 10000,
+        "val_acc": 17.0
+      },
+      {
+        "steps": 60,
+        "round": 60,
+        "examples": 15000,
+        "val_acc": 15.9
+      },
+      {
+        "steps": 80,
+        "round": 80,
+        "examples": 20000,
+        "val_acc": 19.8
+      },
+      {
+        "steps": 100,
+        "round": 100,
+        "examples": 25000,
+        "val_acc": 21.35
+      },
+      {
+        "steps": 120,
+        "round": 120,
+        "examples": 30000,
+        "val_acc": 21.75
+      },
+      {
+        "steps": 140,
+        "round": 140,
+        "examples": 35000,
+        "val_acc": 22.0
+      },
+      {
+        "steps": 160,
+        "round": 160,
+        "examples": 40000,
+        "val_acc": 23.1
+      },
+      {
+        "steps": 180,
+        "round": 180,
+        "examples": 45000,
+        "val_acc": 25.0
+      },
+      {
+        "steps": 200,
+        "round": 200,
+        "examples": 50000,
+        "val_acc": 25.5
+      }
+    ],
+    "test_acc": 26.42
+  },
+  {
+    "partition": "IID",
+    "H": 5,
+    "S": 200,
+    "seed": 0,
+    "log": [
+      {
+        "steps": 0,
+        "round": 0,
+        "examples": 0,
+        "val_acc": 8.65
+      },
+      {
+        "steps": 20,
+        "round": 4,
+        "examples": 5000,
+        "val_acc": 11.4
+      },
+      {
+        "steps": 25,
+        "round": 5,
+        "examples": 6250,
+        "val_acc": 13.45
+      },
+      {
+        "steps": 40,
+        "round": 8,
+        "examples": 10000,
+        "val_acc": 17.0
+      },
+      {
+        "steps": 50,
+        "round": 10,
+        "examples": 12500,
+        "val_acc": 15.0
+      },
+      {
+        "steps": 60,
+        "round": 12,
+        "examples": 15000,
+        "val_acc": 15.95
+      },
+      {
+        "steps": 80,
+        "round": 16,
+        "examples": 20000,
+        "val_acc": 19.75
+      },
+      {
+        "steps": 100,
+        "round": 20,
+        "examples": 25000,
+        "val_acc": 21.4
+      },
+      {
+        "steps": 120,
+        "round": 24,
+        "examples": 30000,
+        "val_acc": 21.8
+      },
+      {
+        "steps": 140,
+        "round": 28,
+        "examples": 35000,
+        "val_acc": 22.0
+      },
+      {
+        "steps": 160,
+        "round": 32,
+        "examples": 40000,
+        "val_acc": 23.05
+      },
+      {
+        "steps": 180,
+        "round": 36,
+        "examples": 45000,
+        "val_acc": 24.45
+      },
+      {
+        "steps": 200,
+        "round": 40,
+        "examples": 50000,
+        "val_acc": 25.35
+      }
+    ],
+    "test_acc": 26.3
+  },
+  {
+    "partition": "IID",
+    "H": 20,
+    "S": 200,
+    "seed": 0,
+    "log": [
+      {
+        "steps": 0,
+        "round": 0,
+        "examples": 0,
+        "val_acc": 8.65
+      },
+      {
+        "steps": 20,
+        "round": 1,
+        "examples": 5000,
+        "val_acc": 11.3
+      },
+      {
+        "steps": 40,
+        "round": 2,
+        "examples": 10000,
+        "val_acc": 17.2
+      },
+      {
+        "steps": 60,
+        "round": 3,
+        "examples": 15000,
+        "val_acc": 15.95
+      },
+      {
+        "steps": 80,
+        "round": 4,
+        "examples": 20000,
+        "val_acc": 19.7
+      },
+      {
+        "steps": 100,
+        "round": 5,
+        "examples": 25000,
+        "val_acc": 21.2
+      },
+      {
+        "steps": 120,
+        "round": 6,
+        "examples": 30000,
+        "val_acc": 21.7
+      },
+      {
+        "steps": 140,
+        "round": 7,
+        "examples": 35000,
+        "val_acc": 21.9
+      },
+      {
+        "steps": 160,
+        "round": 8,
+        "examples": 40000,
+        "val_acc": 22.75
+      },
+      {
+        "steps": 180,
+        "round": 9,
+        "examples": 45000,
+        "val_acc": 24.35
+      },
+      {
+        "steps": 200,
+        "round": 10,
+        "examples": 50000,
+        "val_acc": 25.3
+      }
+    ],
+    "test_acc": 26.1
+  },
+  {
+    "partition": "label_skew",
+    "H": 1,
+    "S": 200,
+    "seed": 0,
+    "log": [
+      {
+        "steps": 0,
+        "round": 0,
+        "examples": 0,
+        "val_acc": 8.65
+      },
+      {
+        "steps": 5,
+        "round": 5,
+        "examples": 1250,
+        "val_acc": 7.8
+      },
+      {
+        "steps": 10,
+        "round": 10,
+        "examples": 2500,
+        "val_acc": 8.4
+      },
+      {
+        "steps": 20,
+        "round": 20,
+        "examples": 5000,
+        "val_acc": 13.2
+      },
+      {
+        "steps": 40,
+        "round": 40,
+        "examples": 10000,
+        "val_acc": 17.35
+      },
+      {
+        "steps": 60,
+        "round": 60,
+        "examples": 15000,
+        "val_acc": 17.0
+      },
+      {
+        "steps": 80,
+        "round": 80,
+        "examples": 20000,
+        "val_acc": 19.45
+      },
+      {
+        "steps": 100,
+        "round": 100,
+        "examples": 25000,
+        "val_acc": 20.6
+      },
+      {
+        "steps": 120,
+        "round": 120,
+        "examples": 30000,
+        "val_acc": 21.65
+      },
+      {
+        "steps": 140,
+        "round": 140,
+        "examples": 35000,
+        "val_acc": 21.75
+      },
+      {
+        "steps": 160,
+        "round": 160,
+        "examples": 40000,
+        "val_acc": 23.0
+      },
+      {
+        "steps": 180,
+        "round": 180,
+        "examples": 45000,
+        "val_acc": 23.85
+      },
+      {
+        "steps": 200,
+        "round": 200,
+        "examples": 50000,
+        "val_acc": 24.4
+      }
+    ],
+    "test_acc": 26.14
+  },
+  {
+    "partition": "label_skew",
+    "H": 5,
+    "S": 200,
+    "seed": 0,
+    "log": [
+      {
+        "steps": 0,
+        "round": 0,
+        "examples": 0,
+        "val_acc": 8.65
+      },
+      {
+        "steps": 20,
+        "round": 4,
+        "examples": 5000,
+        "val_acc": 11.85
+      },
+      {
+        "steps": 25,
+        "round": 5,
+        "examples": 6250,
+        "val_acc": 13.8
+      },
+      {
+        "steps": 40,
+        "round": 8,
+        "examples": 10000,
+        "val_acc": 13.05
+      },
+      {
+        "steps": 50,
+        "round": 10,
+        "examples": 12500,
+        "val_acc": 10.75
+      },
+      {
+        "steps": 60,
+        "round": 12,
+        "examples": 15000,
+        "val_acc": 14.0
+      },
+      {
+        "steps": 80,
+        "round": 16,
+        "examples": 20000,
+        "val_acc": 17.1
+      },
+      {
+        "steps": 100,
+        "round": 20,
+        "examples": 25000,
+        "val_acc": 17.4
+      },
+      {
+        "steps": 120,
+        "round": 24,
+        "examples": 30000,
+        "val_acc": 22.05
+      },
+      {
+        "steps": 140,
+        "round": 28,
+        "examples": 35000,
+        "val_acc": 21.55
+      },
+      {
+        "steps": 160,
+        "round": 32,
+        "examples": 40000,
+        "val_acc": 23.35
+      },
+      {
+        "steps": 180,
+        "round": 36,
+        "examples": 45000,
+        "val_acc": 24.2
+      },
+      {
+        "steps": 200,
+        "round": 40,
+        "examples": 50000,
+        "val_acc": 23.15
+      }
+    ],
+    "test_acc": 23.21
+  },
+  {
+    "partition": "label_skew",
+    "H": 20,
+    "S": 200,
+    "seed": 0,
+    "log": [
+      {
+        "steps": 0,
+        "round": 0,
+        "examples": 0,
+        "val_acc": 8.65
+      },
+      {
+        "steps": 20,
+        "round": 1,
+        "examples": 5000,
+        "val_acc": 9.55
+      },
+      {
+        "steps": 40,
+        "round": 2,
+        "examples": 10000,
+        "val_acc": 11.5
+      },
+      {
+        "steps": 60,
+        "round": 3,
+        "examples": 15000,
+        "val_acc": 16.5
+      },
+      {
+        "steps": 80,
+        "round": 4,
+        "examples": 20000,
+        "val_acc": 16.1
+      },
+      {
+        "steps": 100,
+        "round": 5,
+        "examples": 25000,
+        "val_acc": 16.15
+      },
+      {
+        "steps": 120,
+        "round": 6,
+        "examples": 30000,
+        "val_acc": 19.8
+      },
+      {
+        "steps": 140,
+        "round": 7,
+        "examples": 35000,
+        "val_acc": 18.6
+      },
+      {
+        "steps": 160,
+        "round": 8,
+        "examples": 40000,
+        "val_acc": 20.1
+      },
+      {
+        "steps": 180,
+        "round": 9,
+        "examples": 45000,
+        "val_acc": 20.55
+      },
+      {
+        "steps": 200,
+        "round": 10,
+        "examples": 50000,
+        "val_acc": 21.25
+      }
+    ],
+    "test_acc": 23.08
+  }
+]
